@@ -76,14 +76,15 @@ function App() {
   //return code
   return (
     //single fragment to allow for code to function
+    //pkmn list
+    //pagination component which creates buttons 
     <>
 
-    //pkmn list
+    
     <PokemonList pokemon={pokemon} />
 
-    //pagination component which creates buttons 
+    
     <Pagination 
-
     //if nextpageurl isn't null print the button else don't print the button is the syntax here
     gotoNextPage={nextPageUrl ? gotoNextPage : null}
     gotoPrevPage={previousPageUrl ? gotoPrevPage: null} />

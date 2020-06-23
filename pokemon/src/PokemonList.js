@@ -6,8 +6,9 @@ export default function PokemonList({ pokemon }) {
     
     return (
         //fragment start
+        //from pokemon map(which means print to page) from pointer p
         <div>
-            //from pokemon map(which means print to page) from pointer p
+            
             {pokemon.map(p => (
                 //use p which is the name as key since they will be unique in this case
                 //may have to use a random id in other instances uuidv4
